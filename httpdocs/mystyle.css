@@ -1,0 +1,101 @@
+/* Zet de default settings van de browser wat betreft margin,padding en border op 0 */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* zet de standaard achtergrondkleur van de body */
+body{
+	background-color: #E2E0E0;
+}
+
+/* zet de contents in het midden van het browservenster */
+.wrapper {
+	width: 950px;
+	margin: 0 auto;
+}
+
+/* opmaak header_content */
+.header_content {
+	height: 100px;
+	background: #e0ebeb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e0ebeb, #74a5a5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e0ebeb, #74a5a5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e0ebeb, #74a5a5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e0ebeb, #74a5a5); /* Standard syntax */
+}
+
+.header_content h1 {
+	padding: 30px;
+}
+
+
+/* opmaak menubalk */
+.main_nav ul {
+	list-style: none;
+	background: #00cc00; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00cc00, #008000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00cc00, #008000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00cc00, #008000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00cc00, #008000); /* Standard syntax */
+}
+
+.main_nav li {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.main_nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.main_nav li:hover {
+	background: #008000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#008000, #009900); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#008000, #009900); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#008000, #009900); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#008000, #009900); /* Standard syntax */
+}
+
+/* opmaak main_content */
+.main_content {
+	min-height: 600px;
+	background-color: #FFFFFF;
+}
+
+/* opmaak footer */
+.footer {
+	height: 150px;
+	background: #006600; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#006600, #003300); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#006600, #003300); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#006600, #003300); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#006600, #003300); /* Standard syntax */
+}
+
+.footer h2 {
+	color: #FFFFFF;
+	padding: 15px 25px 15px 25px;
+}
+
+/* opmaak unorderd list in footer */
+.footer ul {
+	list-style: none;
+	padding: 0 25px 0 25px;
+}
+
+.footer li {
+	padding: 5px 0 5px 0;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer a:hover {
+	color: #0073e6;
+}
